@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+@media screen  and (min-width:500px) {
+       header, main{
+        max-width: 80%;
+        margin-inline: auto;
+       }
+
+       .book{
+        width: 60%;
+        height: 600px;
+        margin-inline: auto;
+       }
+}
+
 html{
     scroll-behavior: smooth;
  }
