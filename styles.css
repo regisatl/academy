@@ -1,0 +1,276 @@
+*,
+*::after,
+*:before{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open sans';
+    font-size: 16px;
+    color: #363636;
+}
+header, main{
+    max-width: 80%;
+    margin-inline: auto;
+}
+
+header{
+    text-align: center;
+}
+footer {
+    text-align: center;
+    color: #fff;
+    background-color: rgb(56, 56, 56);
+    padding: 1em;
+    margin-inline: 0;
+    font-size: 14px;
+}
+
+.footer a{
+    color: #fff;
+}
+
+li{
+    list-style: none;
+}
+.navbar{
+    background-color: #7e4a7c;
+    padding: 1em;
+    font-weight: 700;
+    margin-block: 1em;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Economica';
+    font-size: 24px;
+    padding: 1em;
+}
+.navbar a:hover{
+    color: #7e4a7c;
+   background-color: #fff;
+}
+
+.main h1{
+    text-align: center;
+    color: #7e4a7c;
+    font-weight: 900;
+    margin-block: 1.5em;
+    font-family: 'Economica';
+    font-size: 50px;
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+.about{
+    display: flex;
+}
+
+.about .card{
+    width: 30%;
+}
+.about .image-groupe{
+    width: 70%;
+    margin-right: 5px;
+}
+
+.image-groupe img{
+    float: left;
+    width: 40%;
+    height: 400px;
+    margin-right: 20px;
+    clear: both;
+}
+
+.first-child , .first{
+    margin-top: 0;
+    color: #7e4a7c;
+    font-style: italic;
+}
+
+.card div, a {
+    margin-block: 30px;
+}
+
+.card li{
+    margin-block: 20px;
+}
+
+h2{
+    color: #b878b5;
+    margin-top: 0;
+    font-family: 'Economica';
+    font-size: 40px;
+}
+
+h3{
+    margin-left: 40px;
+    margin-top: 0;
+    color: #7e4a7c;
+    font-size: 30px;
+}
+
+h2, h3, .first, .first-child{
+    font-weight: 700;
+}
+
+.card ul li img{
+    margin-right: 20px;
+}
+
+div a{
+    border: 1px solid #b878b5   ;
+    text-decoration: none;
+    color: #fff;
+    background-color: #7e4a7c;
+    padding: 1em;
+    font-family: 'Economica';
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+div a:hover{
+    color: #7e4a7c;
+    background-color: #fff;
+}
+
+.column{
+    display: flex;
+}
+
+.carde{
+    width: 50%;
+    margin-block: 20px;
+    margin-inline: 10px;
+}
+
+.carde img{
+    float: left;
+    margin-right: 20px;
+}
+
+.carde div {
+    margin-block: 30px;
+}
+
+table, tr, th, td{
+    padding: 1em;
+    border-collapse: collapse;
+    border: 1px solid #b878b5;
+    text-align: center;
+}
+table{
+    width: 90%;
+    margin-inline: auto;
+}
+
+thead{
+    background-color: #7e4a7c;
+    color: #fff;
+}
+
+.vide{
+    background-color: #ffeefe;
+}
+
+.weight{
+    font-weight: 700;
+}
+
+.group{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffeefe;
+    margin-block: 20px;
+    padding: 0.5em;
+}
+
+label{
+    color: #7e4a7c;
+}
+
+input[type=text], input[type=email]{
+    padding: 0.2em;
+    width: 30%;
+    border: 1px solid #b878b5;
+    margin-block: 20px;
+    background-color: #fff;
+}
+
+select{
+    padding: 0.2em;
+    width: 20%;
+    border: 1px solid #b878b5;
+    margin-block: 20px;
+    background-color: #fff;
+}
+
+.formulaire{
+    padding: 1em;
+    border: 1px solid #b878b5;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+div input[type=submit], input[type=reset]{
+    border: 1px solid #b878b5;
+    background-color: #7e4a7c;
+    color: #fff;
+    font-size: 25px;
+    padding: 0.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+div input[type=submit]:hover{
+    background-color: #fff;
+    color: #7e4a7c;
+    cursor: pointer;
+}
+div input[type=reset]:hover{
+    background-color: #fff;
+    color: #7e4a7c;
+    cursor: pointer;
+}
+
+section.icons{
+    background-color: #7e4a7c;
+    padding: 1em;
+    margin-bottom: 0;
+    margin-top: 30px;
+    margin-inline: 0;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.icons i{
+    color: #fff;
+    font-size: 2em;
+}
+
+.icons a{
+    text-decoration: none;
+
+}
+
+footer img{
+    width: 50px;
+}
